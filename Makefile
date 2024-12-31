@@ -100,6 +100,7 @@ ASM_PROCESSOR_DIR := $(TOOLS_DIR)/asm-processor
 ASM_PROCESSOR_BUILD = python3 $(ASM_PROCESSOR_DIR)/build.py
 
 # repo-specific tools
+AKI_FILETABLE = $(TOOLS_DIR)/akifiletable
 AKI_LZSS = $(TOOLS_DIR)/aki_lzss
 EXTRACT_FILETABLE = $(TOOLS_DIR)/extract_filetable
 

@@ -6,8 +6,11 @@
 #include "ultra64.h"
 
 /*============================================================================*/
-GLOBAL_ASM("asm/text00/func_800e6af0.s")
-GLOBAL_ASM("asm/text00/func_800e6b0c.s")
+
+// decomped and moved to func_800e6af0.c
+
+//GLOBAL_ASM("asm/text00/func_800e6af0.s")
+//GLOBAL_ASM("asm/text00/func_800e6b0c.s")
 
 /*============================================================================*/
 /* file break */

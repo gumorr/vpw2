@@ -45,7 +45,7 @@ int main(int argc, char* argv[]){
 	long indexFileSize;
 	long dataFileSize;
 	unsigned char* indexTemp;
-	int numIndexEntries;
+	int numIndexEntries = 0;
 	int* indexEntries;
 	size_t readResult;
 
@@ -100,6 +100,7 @@ int main(int argc, char* argv[]){
 		fread(indexTemp, 1, 4, indexFile);
 		++numIndexEntries;
 	}
+    printf("%i", numIndexEntries);
 	rewind(indexFile);
 
 	indexEntries = (int*)malloc(sizeof(unsigned int)*numIndexEntries);
